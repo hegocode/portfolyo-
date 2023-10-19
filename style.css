@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #8AAAE5;
+    color: #fff;
+}
+
+img{
+    width: 200px;
+    border: 5px solid #000000;
+}
+
+input{
+    display: block;
+    border: none;
+    padding: .5em 1em;
+    background: #fff;
+    border-radius: 10px;
+    width: 200px;
+}
+
+button{
+    margin-top: 10px;
+    border: none;
+    background: #fff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    padding: .5em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 225px;
+    transition: all 300ms ease;
+}
+
+button:hover{
+    background: #f1f1f1;
+}
+
+button:active{
+    transform: translateY(5px);
+}
